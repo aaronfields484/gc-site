@@ -6,6 +6,8 @@ body {
 nav {
 
     background-color: #38393C;
+    position: fixed !important;
+    width: 100%;
 }
 
 nav ul {
