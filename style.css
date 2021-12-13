@@ -1,0 +1,30 @@
+body {
+
+    height: 5000vh;
+}
+
+nav {
+
+    background-color: #38393C;
+}
+
+nav ul {
+
+    margin: auto;
+}
+
+.login-btn {
+
+    background-color: #BFAFA4;
+}
+
+.sign-up-btn {
+
+    border-color: #979FA1;
+}
+
+.sign-up-btn:hover {
+
+    background-color: #979FA1;
+    border-color: #979FA1;
+}
