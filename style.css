@@ -1,11 +1,6 @@
-body {
-
-    height: 5000vh;
-}
-
 nav {
 
-    background-color: #38393C;
+    background-color: rgb(56, 57, 60);
     position: fixed !important;
     width: 100%;
 }
@@ -14,6 +9,12 @@ nav ul {
 
     margin: auto;
     font-family: Raleway;
+}
+
+video {
+
+    height: auto !important;
+    width: 100% !important;;
 }
 
 .login-btn {
@@ -31,3 +32,4 @@ nav ul {
     background-color: #979FA1;
     border-color: #979FA1;
 }
+
