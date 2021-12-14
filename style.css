@@ -12,12 +12,28 @@ nav {
     transition: background-color 0.3s;
 }
 
+nav:hover {
+
+    background-color: rgb(56, 57, 60, 0.7);
+}
+
 
 nav ul {
 
     margin: auto;
     font-family: Raleway;
     font-weight: 600;
+}
+
+.nav-item {
+
+    transition: transform 0.15s;
+}
+
+.nav-item:hover {
+
+    font-size: 1.1rem;
+    transform: translateY(-2px);
 }
 
 .navbar-background {
@@ -95,4 +111,5 @@ header h1 {
         background-color: rgb(56, 57, 60);
     }
 }
+
 
