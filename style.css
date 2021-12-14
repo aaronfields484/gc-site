@@ -14,7 +14,7 @@ nav {
 
 nav:hover {
 
-    background-color:rgb(56, 57, 60, 0.7)
+    background-color:rgb(56, 57, 60, 0.7);
 }
 
 nav ul {
@@ -22,6 +22,11 @@ nav ul {
     margin: auto;
     font-family: Raleway;
     font-weight: 600;
+}
+
+.navbar-background {
+
+    background-color:rgb(56, 57, 60, 0.7);
 }
 
 video {
@@ -88,3 +93,4 @@ header h1 {
         text-shadow: 0 3px 3px rgba(0,0,0,0.2);
     }
 }
+
