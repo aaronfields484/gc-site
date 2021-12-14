@@ -1,8 +1,14 @@
+body {
+
+    height: 5000px;
+}
+
 nav {
 
     background-color: rgb(56, 57, 60);
     position: fixed !important;
     width: 100%;
+    z-index: 2;
 }
 
 nav ul {
@@ -48,4 +54,30 @@ header h1 {
     background-color: rgb(56, 57, 60, 0.7);
     border-radius: 3px;
     box-shadow: 0 5px 5px rgba(0,0,0,0.2); 
+    text-align: center;
+}
+
+@media only screen and (max-width: 991px) {
+    
+    video {
+        display: none;
+    }
+
+    header {
+
+        background-image: url('./src/img/header-img.jpg');
+        height: 80vh;
+    }
+
+    header h1 {
+
+        position: static;
+        margin: 0 auto;
+        transform: unset;
+        padding-top: 250px;
+        width: unset;
+        background-color: unset;
+        box-shadow: none;
+        text-shadow: 0 3px 3px rgba(0,0,0,0.2);
+    }
 }
