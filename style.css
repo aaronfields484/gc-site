@@ -5,10 +5,16 @@ body {
 
 nav {
 
-    background-color: rgb(56, 57, 60);
+    background-color: transparent;
     position: fixed !important;
     width: 100%;
     z-index: 2;
+    transition: background-color 0.3s;
+}
+
+nav:hover {
+
+    background-color:rgb(56, 57, 60, 0.7)
 }
 
 nav ul {
