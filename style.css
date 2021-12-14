@@ -12,10 +12,6 @@ nav {
     transition: background-color 0.3s;
 }
 
-nav:hover {
-
-    background-color:rgb(56, 57, 60, 0.7);
-}
 
 nav ul {
 
@@ -91,6 +87,12 @@ header h1 {
         background-color: unset;
         box-shadow: none;
         text-shadow: 0 3px 3px rgba(0,0,0,0.2);
+    }
+
+    nav {
+
+        box-shadow: 0 3px 3px rgba(0,0,0,0.2);
+        background-color: rgb(56, 57, 60);
     }
 }
 
