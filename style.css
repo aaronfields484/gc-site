@@ -17,6 +17,7 @@ video {
     width: 100% !important;;
 }
 
+
 .login-btn {
 
     background-color: #BFAFA4;
@@ -33,3 +34,18 @@ video {
     border-color: #979FA1;
 }
 
+header h1 {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 5rem;
+    font-weight: 600;
+    font-family: Raleway;
+    padding: 2%;
+    background-color: rgb(56, 57, 60, 0.7);
+    border-radius: 3px;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.2); 
+}
