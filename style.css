@@ -5,16 +5,40 @@ body {
 
 nav {
 
-    background-color: rgb(56, 57, 60);
+    background-color: transparent;
     position: fixed !important;
     width: 100%;
     z-index: 2;
+    transition: background-color 0.3s;
 }
+
+nav:hover {
+
+    background-color: rgb(56, 57, 60, 0.7);
+}
+
 
 nav ul {
 
     margin: auto;
     font-family: Raleway;
+    font-weight: 600;
+}
+
+.nav-item {
+
+    transition: transform 0.15s;
+}
+
+li.nav-item:hover  {
+
+    font-size: 1.1rem;
+    transform: translateY(-2px);
+}
+
+.navbar-background {
+
+    background-color:rgb(56, 57, 60, 0.7);
 }
 
 video {
@@ -80,4 +104,12 @@ header h1 {
         box-shadow: none;
         text-shadow: 0 3px 3px rgba(0,0,0,0.2);
     }
+
+    nav {
+
+        box-shadow: 0 3px 3px rgba(0,0,0,0.2);
+        background-color: rgb(56, 57, 60);
+    }
 }
+
+
