@@ -1,3 +1,11 @@
+.gp{
+  font-family: raleway;
+  background-color: rgb(56, 57, 60, 0.7);
+  margin-bottom: 0;
+  color:white;
+  padding-left: 1%;
+}
+
 .row > .column {
   padding: 0 8px;
 }
@@ -31,11 +39,11 @@
 /* Modal Content */
 .modal-content {
   position: relative;
-  background-color: #ffffff;
+  background-color: rgba(56,57,60);
   margin: auto;
   padding: 0;
   width: 50%;
-  max-width: 1200px;
+  max-width: 1000px;
 }
 
 /* The Close Button */
@@ -52,7 +60,7 @@
 .close:focus {
   color: #999;
   text-decoration: none;
-  cursor: pointer;
+  cursor:pointer
 }
 
 /* Hide the slides by default */
@@ -69,7 +77,7 @@
   width: auto;
   padding: 16px;
   margin-top: -50px;
-  color: rgb(24, 23, 23);
+  color: rgb(255, 255, 255);
   font-weight: bold;
   font-size: 20px;
   transition: 0.6s ease;
