@@ -1,0 +1,18 @@
+.carousel-inner .carousel-item {
+    height: 200px;
+}
+img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.attractions {
+    background-color: #38393c ;
+}
+/*
+    font-family: 'Raleway', sans-serif;
+    font-weight:bold ;
+    color: #979fa1;
+    background-color: #38393c;
+}
+*/
