@@ -1,3 +1,40 @@
+.fab{
+  color: white;
+  font-weight: 100;
+  font-family: merriweather;
+  font-style: normal;
+  display:block; 
+  width: 120px;
+  text-align: left;
+
+}
+
+footer h3{
+    font-weight: 100;
+    font-family: Raleway;
+    padding: 1%;
+    background-color: rgb(56, 57, 60, 0.7);
+    text-align: center;
+}
+
+
+footer h4{
+    font-weight: 100;
+    font-family: Raleway;
+    padding: 1%;
+    background-color: rgb(56, 57, 60, 0.7);
+    text-align: center;
+
+}
+
+footer p{
+    font-weight: 100;
+    font-family: merriweather;
+    padding: 1%;
+    background-color:transparent;
+    text-align: center;
+}
+
 body {
 
     height: 5000px;
@@ -146,5 +183,6 @@ header h1 {
         background-color: rgb(56, 57, 60);
     }
 }
+
 
 
