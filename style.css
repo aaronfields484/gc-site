@@ -34,3 +34,155 @@ footer p{
     background-color:transparent;
     text-align: center;
 }
+
+body {
+
+    height: 5000px;
+    overflow-x: hidden;
+}
+
+nav {
+
+    background-color: transparent;
+    position: fixed !important;
+    width: 100%;
+    z-index: 2;
+    transition: background-color 0.3s;
+}
+
+nav:hover {
+
+    background-color: rgb(56, 57, 60, 0.7);
+}
+
+
+nav ul {
+
+    margin: auto;
+    font-family: Raleway;
+    font-weight: 600;
+}
+
+.navbar-brand {
+
+    font-family: Merriweather;
+    font-size: 1.5rem;
+    padding: 0.75% 0.5%;
+}
+
+.nav-item {
+
+    transition: transform 0.15s;
+}
+
+li.nav-item:hover  {
+
+    font-size: 1.1rem;
+    transform: translateY(-2px);
+}
+
+.navbar-background {
+
+    background-color:rgb(56, 57, 60, 0.7);
+}
+
+video {
+
+    height: auto !important;
+    width: 100% !important;;
+}
+
+
+.login-btn {
+
+    background-color: #BFAFA4;
+}
+
+.sign-up-btn {
+
+    border-color: #979FA1;
+}
+
+.sign-up-btn:hover {
+
+    background-color: #979FA1;
+    border-color: #979FA1;
+}
+
+.h-content img {
+
+    position: absolute;
+    top: 280px;
+    left: 80px;
+    filter: opacity(0.9);
+}
+
+.h-text {
+
+    position: absolute;
+    top: 300px;
+    left: 300px;
+}
+
+.h-text h2 {
+
+    transform: translateX(2%);
+}
+
+
+.h-content {
+
+    color: white;
+}
+
+header h1 {
+
+    color: white;
+    font-size: 5rem;
+    font-weight: 600;
+    font-family: Raleway;
+    border-radius: 3px;
+}
+
+
+@media only screen and (max-width: 991px) {
+
+    .h-content {
+
+        padding: 5% 7%;
+    }
+
+    .h-content img {
+        
+        margin-top: 100px;
+        position: static;
+        filter: opacity(1);
+        
+    }
+    
+    .h-text {
+    
+        position: static;
+    }
+    
+    
+    video {
+        display: none;
+    }
+
+    header {
+
+        background-image: url('./src/img/header-img.jpg');
+        background-size: cover;
+        height: 80vh;
+    }
+
+    nav {
+
+        box-shadow: 0 3px 3px rgba(0,0,0,0.2);
+        background-color: rgb(56, 57, 60);
+    }
+}
+
+
+
