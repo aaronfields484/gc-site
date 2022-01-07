@@ -1,44 +1,6 @@
-.fab{
-  color: white;
-  font-weight: 100;
-  font-family: merriweather;
-  font-style: normal;
-  display:block; 
-  width: 120px;
-  text-align: left;
-
-}
-
-footer h3{
-    font-weight: 100;
-    font-family: Raleway;
-    padding: 1%;
-    background-color: rgb(56, 57, 60, 0.7);
-    text-align: center;
-}
-
-
-footer h4{
-    font-weight: 100;
-    font-family: Raleway;
-    padding: 1%;
-    background-color: rgb(56, 57, 60, 0.7);
-    text-align: center;
-
-}
-
-footer p{
-    font-weight: 100;
-    font-family: merriweather;
-    padding: 1%;
-    background-color:transparent;
-    text-align: center;
-}
-
 body {
 
-    height: 5000px;
-    overflow-x: hidden;
+    background-color: #38393c;
 }
 
 nav {
@@ -84,6 +46,11 @@ li.nav-item:hover  {
 .navbar-background {
 
     background-color:rgb(56, 57, 60, 0.7);
+}
+
+header {
+
+    height: 100vh;
 }
 
 video {
@@ -184,5 +151,61 @@ header h1 {
     }
 }
 
+.carousel-inner .carousel-item {
+    height: 250px;
+    margin-bottom: 200px;
+}
 
+.card img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.attractions {
+
+    width: 100%;
+}
+
+footer {
+
+    overflow: hidden;
+}
+
+.fab{
+    color: white;
+    font-weight: 100;
+    font-family: merriweather;
+    font-style: normal;
+    display:block; 
+    width: 120px;
+    text-align: left;
+  
+  }
+  
+  footer h3{
+      font-weight: 100;
+      font-family: Raleway;
+      padding: 1%;
+      background-color: rgb(56, 57, 60, 0.7);
+      text-align: center;
+  }
+  
+  
+  footer h4{
+      font-weight: 100;
+      font-family: Raleway;
+      padding: 1%;
+      background-color: rgb(56, 57, 60, 0.7);
+      text-align: center;
+  
+  }
+  
+  footer p{
+      font-weight: 100;
+      font-family: merriweather;
+      padding: 1%;
+      background-color:transparent;
+      text-align: center;
+  }
+  
 
