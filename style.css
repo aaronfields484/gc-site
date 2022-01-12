@@ -4,6 +4,16 @@ body {
     overflow-x: hidden;
 }
 
+h1, h2, h3, h4, h5, h6 {
+
+  font-family: Raleway;
+}
+
+p {
+
+  font-family: Merriweather;
+}
+
 nav {
 
     background-color: transparent;
@@ -344,3 +354,146 @@ footer {
   }
   
   
+/* Events Page */
+
+.banner {
+
+  background-image: url('./src/img/events-banner.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: bottom;
+  height: 50vh;
+  padding: 150px 5%;
+  box-shadow: 3px 3px 5px 6px;
+}
+
+.banner h1 {
+
+  filter: blur(0px) !important;
+  animation: transitionUp 1s, fadeIn 3s;
+  animation-delay: 0.2;
+
+}
+
+/* Banner Animations */
+
+@keyframes fadein {
+
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@keyframes transitionUp {
+
+  from { transform: translateY(40px); }
+  to { transform: translateY(0); }
+}
+
+.e-sort {
+
+  margin: 80px auto;
+  text-align: center;
+  display: flex;
+  width: 450px;
+}
+
+.e-sort select, button {
+
+  margin: auto 8px;
+}
+
+
+.events {
+
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 50px auto;
+}
+
+.event-box {
+
+  background-color: white;
+  width: 385px;
+  height: 400px;
+  margin: 4px 2px;
+  transition: transform ease-in-out 0.2s;
+}
+
+.event-blocks {
+
+  width: 100%;
+  height: 80px;
+  background-color: #979FA1;
+  display: flex;
+}
+
+.event-date {
+
+  width: 25%;
+  height: 80px;
+  background-color: #BFAFA4;
+  display: inline-block;
+  padding: 15.4px;
+}
+
+.event-tp {
+
+  height: 50px;
+  display: inline-block;
+  padding: 8%;
+  margin-top: -10px;
+}
+
+.events-desc {
+
+  padding: 8% 5%;
+}
+
+.events-desc button {
+
+  position: relative;
+  top: 1;
+  background-color: #979FA1;
+  border-color: #979fa1;
+
+}
+
+.events hr {
+
+  width: 80px;
+  height: 2px;
+}
+
+.event-box:nth-child(even) .event-date {
+
+  background-color: #929AC6;
+}
+
+.event-box:nth-child(even) .event-blocks {
+
+  background-color: #909493;
+}
+
+.event-box:hover {
+
+  position: relative;
+  transform: scale(1.035);
+}
+
+.pagination {
+
+  margin-bottom: 30px;
+}
+
+.page-link {
+
+  color: black !important;
+  background-color: #BFAFA4;
+  border-color: #38393c;
+}
+
+.p-one-inc .page-link {
+
+  background-color: #979FA1;
+}
