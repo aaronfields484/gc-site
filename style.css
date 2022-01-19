@@ -370,8 +370,8 @@ footer {
 .banner h1 {
 
   filter: blur(0px) !important;
-  animation: transitionUp 1s, fadeIn 3s;
-  animation-delay: 0.2;
+  animation: transitionUp 1s, fadeIn 2s;
+  animation-delay: 0.4s;
 
 }
 
@@ -397,7 +397,7 @@ footer {
   width: 450px;
 }
 
-.e-sort select, button {
+.e-sort select, .e-sort button {
 
   margin: auto 8px;
 }
@@ -459,7 +459,7 @@ footer {
 
 }
 
-.events hr {
+.events hr, .divider {
 
   width: 80px;
   height: 2px;
@@ -497,3 +497,44 @@ footer {
 
   background-color: #979FA1;
 }
+
+/* Single Event */
+
+.body-content {
+
+  margin: 30px auto;
+  padding: 5%;
+}
+
+.event-details {
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 50px auto;
+}
+
+.event-details div {
+
+  margin: auto 30px;
+  background-color: #979fa1;
+  text-align: center;
+}
+
+.se-date, .se-time {
+
+  border-radius: 10px !important;
+  padding: 3%;
+}
+
+.se-location {
+
+  padding: 3%;
+  border-radius: 3px;
+}
+
+.event-summary {
+
+  color: white;
+}
+
