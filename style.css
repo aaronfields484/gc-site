@@ -121,19 +121,19 @@ header h1 {
     }
 
     .h-content img {
-        
+
         margin-top: 100px;
         position: static;
         filter: opacity(1);
-        
+
     }
-    
+
     .h-text {
-    
+
         position: static;
     }
-    
-    
+
+
     video {
         display: none;
     }
@@ -177,28 +177,28 @@ footer {
     font-weight: 100;
     font-family: merriweather;
     font-style: normal;
-    display:block; 
+    display:block;
     width: 120px;
     text-align: left;
-  
+
   }
-  
+
   footer h3{
       font-weight: 100;
       font-family: Raleway;
       padding: 2%;
       text-align: center;
   }
-  
-  
+
+
   footer h4{
       font-weight: 100;
       font-family: Raleway;
       padding: 1%;
       text-align: center;
-  
+
   }
-  
+
   footer p{
       font-weight: 100;
       font-family: merriweather;
@@ -206,7 +206,7 @@ footer {
       background-color:transparent;
       text-align: center;
   }
-  
+
 
 
 .gp{
@@ -216,23 +216,23 @@ footer {
     color:white;
     padding-left: 1%;
   }
-  
+
   .row > .column {
     padding: 0 8px;
   }
-  
+
   .row:after {
     content: "";
     display: table;
     clear: both;
   }
-  
+
   /* Create four equal columns that floats next to eachother */
   .column {
     float: left;
     width: 25%;
   }
-  
+
   /* The Modal (background) */
   .modal {
     display: none;
@@ -246,7 +246,7 @@ footer {
     overflow: auto;
     background-color: rgba(0, 0, 0, 0.89);
   }
-  
+
   /* Modal Content */
   .modal-content {
     position: relative;
@@ -256,7 +256,7 @@ footer {
     width: 50%;
     max-width: 1000px;
   }
-  
+
   /* The Close Button */
   .close {
     color: white;
@@ -266,19 +266,19 @@ footer {
     font-size: 35px;
     font-weight: bold;
   }
-  
+
   .close:hover,
   .close:focus {
     color: #999;
     text-decoration: none;
     cursor:pointer
   }
-  
+
   /* Hide the slides by default */
   .mySlides {
     display: none;
   }
-  
+
   /* Next & previous buttons */
   .prev,
   .next {
@@ -296,19 +296,19 @@ footer {
     user-select: none;
     -webkit-user-select: none;
   }
-  
+
   /* Position the "next button" to the right */
   .next {
     right: 0;
     border-radius: 3px 0 0 3px;
   }
-  
+
   /* On hover, add a black background color with a little bit see-through */
   .prev:hover,
   .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
   }
-  
+
   /* Number text (1/3 etc) */
   .numbertext {
     color: #000000;
@@ -317,7 +317,7 @@ footer {
     position: absolute;
     top: 0;
   }
-  
+
   /* Caption text */
   .caption-container {
     text-align: center;
@@ -325,22 +325,309 @@ footer {
     padding: 2px 16px;
     color: white;
   }
-  
+
   img.demo {
     opacity: 0.6;
   }
-  
+
   .active,
   .demo:hover {
     opacity: 1;
   }
-  
+
   img.hover-shadow {
     transition: 0.3s;
   }
-  
+
   .hover-shadow:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
-  
-  
+.city-overview {
+  position: relative;
+  background-image:url(img/night1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 300px;
+  overflow: hidden;
+
+}
+.things-title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  margin-bottom: 1em;
+}
+.things-title h1{
+  font-family: Raleway;
+  font-weight: 1000;
+  font-size: 5vw;
+  color: #ffff;
+}
+.attractions-title {
+  font-family: Merriweather;
+  text-align: center;
+  text-transform: uppercase;
+  color: black;
+  padding-left: 5.2rem;
+  background-color: #ffff;
+}
+.visit-gotham {
+  background-color: #979fa1;
+  padding-bottom: 0.5em;
+  display: flex;
+  height: 300px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+.visit-gotham h2 {
+  font-size: 4em;
+  font-weight: 1000;
+  font-family: Raleway;
+  text-align: center;
+}
+.visit-gotham p {
+  font-family: Merriweather;
+  font-size: 1.5em;
+  text-align: center;
+}
+.gallery-container {
+  padding: 2rem;
+  background-color: #38393c;
+}
+.gallery-container h3{
+  font-size: 2.5em;
+  color: #BFAFA4;
+}
+.gallery-attractions {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(20rem, 1fr));
+  gap:0.5rem;
+
+}
+.attraction-item {
+  position: relative;
+  overflow: hidden;
+}
+.attraction-image {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.attraction-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50% ;
+  transition:.5s ease-in-out;
+}
+.attraction-item:hover .attraction-image img{
+  transform:scale(1.5);
+  filter: blur(1px);
+  opacity: 0.5;
+}
+.gallery-text {
+  color:white;
+  position: absolute;
+  text-align: center;
+  opacity: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  font-size: 3em;
+}
+.attraction-item:hover .gallery-text {
+  opacity:1;
+  animation: move-text-up .4s linear;
+}
+@keyframes move-text-up {
+  0%{
+    top:90%;
+  }
+  50%{
+    top:65%;
+  }
+  100%{
+    top:50%;
+  }
+}
+.nightlife-container {
+  width: 100%;
+  height: 600px;
+  background-color: #38393c;
+  position: relative;
+}
+.nightlife-banner {
+  position: absolute;
+  transform:translate(-50%, -50%);
+  top: 50%;
+  left:50%;
+}
+.nightlife-banner h3 {
+  font-size: 4em;
+  color: white;
+  text-align: center;
+  font-family: Merriweather;
+  font-weight: 500;
+}
+.nightlife-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.mainblog-hero {
+  background-image: url(img/heroblog.jpg);
+  background-size: cover;
+  height: 300px;
+  object-fit: cover;
+  position: relative;
+}
+.mainblog-hero h1 {
+  position:absolute;
+  bottom: 0;
+  left: 20px;
+  font-weight: 1000;
+  font-size: 8vh;
+  color: #ffff;
+}
+.blog-container {
+  margin: 1% 20% 1% 20%;
+  background-color: #ffff;
+}
+.mainblog {
+  padding: 1em;
+  width: 100%;
+  border-bottom:5px solid;
+}
+.mainblog h2 {
+  text-align: center;
+  font-family: Raleway;
+  font-weight: 1000;
+  text-transform: uppercase;
+  font-size: 6em;
+}
+.mainblog-content {
+  column-count: 3;
+  font-size: 1em;
+  font-family: Merriweather;
+}
+.mainblog img {
+  width: 100%;
+}
+.blogs-wrap {
+  display: flex;
+}
+.blog1 {
+  width: 100%;
+}
+.blog1-content {
+  column-count: 1;
+}
+.blog1-content h2{
+  text-align: center;
+  font-family: Raleway;
+  font-weight: 1000;
+  text-transform: uppercase;
+  font-size: 3em;
+}
+.blog1-content p {
+  font-family: Merriweather;
+  font-size: 1em;
+}
+.blog1-content img {
+  width: 100%;
+}
+.blog1-text {
+  column-count: 2;
+  padding: 1em;
+}
+.blog2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+}
+.blog2-content {
+  height: 100%;
+}
+.blog2-content h2 {
+  text-align: center;
+  font-weight: 1000;
+  font-family: Raleway;
+  text-transform: uppercase;
+  font-size: 2em;
+}
+.blog2-content h2:first-of-type {
+  padding-top: 1em;
+}
+.blog2-content p {
+  font-family: Merriweather;
+  font-size: 1em;
+}
+.blog3-content {
+  border-top: solid;
+  height: 100%;
+}
+.blog3-content h2 {
+  padding-top: 1em;
+  text-align: center;
+  font-weight: 1000;
+  font-family: Raleway;
+  text-transform: uppercase;
+  font-size: 2em;
+}
+
+.blog3-content img {
+  width: 30%;
+}
+.blog2-content p {
+  font-family: Merriweather;
+  font-size: 1em;
+}
+@media only screen and (max-width: 1476px) {
+  .blog1-text {
+    column-count: 1;
+    padding: 1em;
+}
+  .mainblog-content {
+    column-count: 2;
+}
+.mainblog h2 {
+  font-size: 4em;
+}
+}
+@media only screen and (max-width:928px) {
+  .blog-container {
+    margin:0;
+    background-color: #ffff;
+  }
+
+  .mainblog-content {
+    display: flex;
+    flex-direction: column;
+    column-count: 1;
+  }
+
+  .mainblog-content img {
+    order: -2;
+  }
+
+  .mainblog h2 {
+    font-size: 3em;
+  }
+
+  .blogs-wrap {
+    width: 100%;
+    display: block;
+    padding: 1em;
+  }
+
+  .blog2-content {
+    border-top: solid;
+  }
+  }
