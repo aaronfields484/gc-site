@@ -521,6 +521,11 @@ footer {
   width: 65%;
 }
 
+.news-summary {
+
+  margin-top: 40px;
+}
+
 .se-date, .se-time {
 
   border-radius: 10px !important;
@@ -540,6 +545,11 @@ footer {
   justify-content: space-between;
   align-items: flex-start;
   color: white;;
+}
+
+.single-flex {
+
+  flex-direction: row-reverse;
 }
 
 .single-nav {
@@ -709,6 +719,16 @@ footer {
   .single-nav {
 
     margin: 20px auto auto auto;
+  }
+
+  .single-flex {
+
+    flex-direction: column-reverse;
+  }
+
+  .single-nav {
+
+    width: 99%;
   }
 }
 
