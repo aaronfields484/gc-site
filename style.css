@@ -479,4 +479,159 @@ footer {
   height: 100%;
   object-fit: cover;
   object-position: center;
+<<<<<<< HEAD
 }
+=======
+}
+.mainblog-hero {
+  background-image: url(img/heroblog.jpg);
+  background-size: cover;
+  height: 300px;
+  object-fit: cover;
+  position: relative;
+}
+.mainblog-hero h1 {
+  position:absolute;
+  bottom: 0;
+  left: 20px;
+  font-weight: 1000;
+  font-size: 8vh;
+  color: #ffff;
+}
+.blog-container {
+  margin: 1% 20% 1% 20%;
+  background-color: #ffff;
+}
+.mainblog {
+  padding: 1em;
+  width: 100%;
+  border-bottom:5px solid;
+}
+.mainblog h2 {
+  text-align: center;
+  font-family: Raleway;
+  font-weight: 1000;
+  text-transform: uppercase;
+  font-size: 6em;
+}
+.mainblog-content {
+  column-count: 3;
+  font-size: 1em;
+  font-family: Merriweather;
+}
+.mainblog img {
+  width: 100%;
+}
+.blogs-wrap {
+  display: flex;
+}
+.blog1 {
+  width: 100%;
+}
+.blog1-content {
+  column-count: 1;
+}
+.blog1-content h2{
+  text-align: center;
+  font-family: Raleway;
+  font-weight: 1000;
+  text-transform: uppercase;
+  font-size: 3em;
+}
+.blog1-content p {
+  font-family: Merriweather;
+  font-size: 1em;
+}
+.blog1-content img {
+  width: 100%;
+}
+.blog1-text {
+  column-count: 2;
+  padding: 1em;
+}
+.blog2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+}
+.blog2-content {
+  height: 100%;
+}
+.blog2-content h2 {
+  text-align: center;
+  font-weight: 1000;
+  font-family: Raleway;
+  text-transform: uppercase;
+  font-size: 2em;
+}
+.blog2-content h2:first-of-type {
+  padding-top: 1em;
+}
+.blog2-content p {
+  font-family: Merriweather;
+  font-size: 1em;
+}
+.blog3-content {
+  border-top: solid;
+  height: 100%;
+}
+.blog3-content h2 {
+  padding-top: 1em;
+  text-align: center;
+  font-weight: 1000;
+  font-family: Raleway;
+  text-transform: uppercase;
+  font-size: 2em;
+}
+
+.blog3-content img {
+  width: 30%;
+}
+.blog2-content p {
+  font-family: Merriweather;
+  font-size: 1em;
+}
+@media only screen and (max-width: 1476px) {
+  .blog1-text {
+    column-count: 1;
+    padding: 1em;
+}
+  .mainblog-content {
+    column-count: 2;
+}
+.mainblog h2 {
+  font-size: 4em;
+}
+}
+@media only screen and (max-width:928px) {
+  .blog-container {
+    margin:0;
+    background-color: #ffff;
+  }
+
+  .mainblog-content {
+    display: flex;
+    flex-direction: column;
+    column-count: 1;
+  }
+
+  .mainblog-content img {
+    order: -2;
+  }
+
+  .mainblog h2 {
+    font-size: 3em;
+  }
+
+  .blogs-wrap {
+    width: 100%;
+    display: block;
+    padding: 1em;
+  }
+
+  .blog2-content {
+    border-top: solid;
+  }
+  }
+>>>>>>> mainblog
