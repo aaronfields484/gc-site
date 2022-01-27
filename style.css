@@ -163,20 +163,36 @@ header h1 {
 
     
 }
+.homeattractions-container {
+  position: relative;
+  background-image: url(img/batlogo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 1000px;
+}
+.carousel-slide {
+  width: 100%;
+}
+.carousel-inner {
+  width: 100%;
+}
 
 .carousel-inner .carousel-item {
     height: 250px;
+    width: 100%;
+    object-fit: cover;
     margin-bottom: 200px;
 }
-
-.card img {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
+.card {
+  width: 100%;
+  height: 100%;
 }
 .attractions {
-
-    width: 100%;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  
 }
 
 footer {
