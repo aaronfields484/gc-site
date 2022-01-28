@@ -163,14 +163,6 @@ header h1 {
 
     
 }
-.homeattractions-container {
-  position: relative;
-  background-image: url(img/batlogo.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 1000px;
-}
 .carousel-slide {
   width: 100%;
 }
@@ -184,15 +176,111 @@ header h1 {
     object-fit: cover;
     margin-bottom: 200px;
 }
+.gotham-attractions {
+  border-top: #BFAFA4 solid 5px;
+  background-color: black;
+  position: relative;
+  width: 100%;
+  height: 1000px;
+}
+.ga-content {
+  margin-top: 3em;
+  display: flex;
+  justify-content: center;
+  width:100%;
+  position: absolute;
+}
+.ga-content-image {
+  height: 300px;
+}
+.ga-content-image img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.ga-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 3em;
+  margin-top: 2em; */
+}
+.ga-text h2 {
+  border-bottom: #ffff solid 2px;
+  color: #BFAFA4;
+}
+.ga-text p {
+  max-width: 500px;
+  color: #ffff;
+}
 .card {
   width: 100%;
   height: 100%;
+  margin-right: 3em;
 }
 .attractions {
+  display: flex;
   position: absolute;
+  justify-content: center;
   width: 100%;
+
   top: 50%;
   
+}
+@media only screen and (max-width: 1180px) {
+  .ga-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ga-content {
+    height: auto;
+  }
+
+  .ga-content-image {
+    height: 200px;
+    align-items: center;
+  }
+
+  .ga-content-image img {
+    width: 100%;
+    padding-top: 2em;
+    height: 100%;
+  }
+
+  .attractions .card:first-of-type {
+    margin-left: 2em;
+  }
+
+  .ga-text {
+    margin: 0;
+    padding-top: 1em;
+    align-items: center;
+  }
+
+  .ga-text h2 {
+    font-size: 2.5em;
+  }
+
+  .ga-text p {
+    padding-top: 1em;
+    font-size: 1em;
+    max-width: 600px;
+  }
+  .card img {
+    height: 50%;
+  }
+}
+
+@media only screen and (max-width: 880px) {
+  .attractions {
+    flex-wrap: wrap;
+    gap: 2em;
+    top: 35%;
+  }
+  .gotham-attractions {
+    height: 1400px;
+
+  }
 }
 
 footer {
