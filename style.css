@@ -143,7 +143,7 @@ header h1 {
         background-image: url('./src/img/header-img.jpg');
         background-size: cover;
         height: 80vh;
-    }
+    } 
 
     nav {
 
@@ -186,19 +186,149 @@ header h1 {
 >>>>>>> things_fix
 }
 
-.carousel-inner .carousel-item {
-    height: 250px;
-    margin-bottom: 200px;
+.gotham-attractions {
+  border-top: #BFAFA4 solid 5px;
+  background-color: black;
+  width: 100%;
+  padding: 3em 0em;
 }
-
-.card img {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
+.ga-content {
+  margin-top: 3em;
+  display: flex;
+  justify-content: center;
+  width:100%;
+}
+.ga-content-image {
+  height: 300px;
+}
+.ga-content-image img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.ga-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 3em;
+  margin-top: 2em; */
+}
+.ga-text h2 {
+  border-bottom: #ffff solid 2px;
+  color: #BFAFA4;
+}
+.ga-text p {
+  max-width: 500px;
+  color: #ffff;
+}
+.card {
+  width: 100%;
+  height: 100%;
+  margin-right: 3em;
 }
 .attractions {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  top: 50%;
+  margin-top: 4em;  
+}
+.gquotes-container {
+  background-image: linear-gradient(180deg, #38393c, #bfafa4 );
+  height: 100%;
+}
+.carouselslide {
+  margin: 25%;
+}
+.gquotes {
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(750px,1fr));
+  margin-top: 4em;
+  gap: 4em;
+  align-items: start;
+  width: 100%;
+  height: 100%;
+}
+.gquotes-container h2 {
+  text-align: center;
+  padding-top: 0.5em;
+  color: #979FA1;
+  font-size: 4em;
+  font-weight: 1000;
 
+}
+.gquote-item {
+  display: flex;
+  flex-flow: column;
+  gap: 0.5em;
+  justify-content: center;
+  align-items: center;
+}
+.gquote-content {
+  height: 100px;
+
+}
+.gquote-item img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.gquote-item p {
+  font-family: Merriweather;
+  flex-wrap: wrap;
+  font-size: 1.5em;
+  max-width: 600px;
+}
+.gquote-item h3 {
+  font-weight: 1000;
+}
+
+@media only screen and (max-width: 1180px) {
+  .ga-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ga-content {
+    height: auto;
+  }
+
+  .ga-content-image {
+    height: 200px;
+    align-items: center;
+  }
+
+  .ga-content-image img {
     width: 100%;
+    padding-top: 2em;
+    height: 100%;
+  }
+  .ga-text {
+    margin: 0;
+    padding-top: 1em;
+    align-items: center;
+  }
+
+  .ga-text h2 {
+    font-size: 2.5em;
+  }
+
+  .ga-text p {
+    padding-top: 1em;
+    font-size: 1em;
+    max-width: 600px;
+  }
+  .card img {
+    height: 50%;
+  }
+}
+
+@media only screen and (max-width: 880px) {
+  .attractions {
+    flex-wrap: wrap;
+    gap: 2em;
+    top: 35%;
+  }
 }
 
 footer {
@@ -472,17 +602,7 @@ footer {
   filter: blur(1px);
   opacity: 0.5;
 }
-.gallery-text {
-  color:white;
-  position: absolute;
-  text-align: center;
-  opacity: 1;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  opacity: 0;
-  font-size: 3em;
-}
+
 .attraction-item:hover .gallery-text {
   opacity:1;
   animation: move-text-up .4s linear;
