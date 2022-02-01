@@ -150,7 +150,6 @@ header h1 {
         box-shadow: 0 3px 3px rgba(0,0,0,0.2);
         background-color: rgb(56, 57, 60);
     }
-<<<<<<< HEAD
 
     /* about page */
     .h-contentabout {
@@ -182,8 +181,6 @@ header h1 {
 
     /* end of about page */
     
-=======
->>>>>>> things_fix
 }
 
 .gotham-attractions {
@@ -642,7 +639,6 @@ footer {
   height: 100%;
   object-fit: cover;
   object-position: center;
-<<<<<<< HEAD
 
 }
 
@@ -1330,6 +1326,4 @@ hr {
 /* end of about gallery */
 
 
-=======
 }
->>>>>>> things_fix
