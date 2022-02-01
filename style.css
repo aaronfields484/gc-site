@@ -153,7 +153,7 @@ header h1 {
         background-image: url('./src/img/header-img.jpg');
         background-size: cover;
         height: 80vh;
-    }
+    } 
 
     nav {
 
@@ -163,32 +163,18 @@ header h1 {
 
     
 }
-.carousel-slide {
-  width: 100%;
-}
-.carousel-inner {
-  width: 100%;
-}
 
-.carousel-inner .carousel-item {
-    height: 250px;
-    width: 100%;
-    object-fit: cover;
-    margin-bottom: 200px;
-}
 .gotham-attractions {
   border-top: #BFAFA4 solid 5px;
   background-color: black;
-  position: relative;
   width: 100%;
-  height: 1000px;
+  padding: 3em 0em;
 }
 .ga-content {
   margin-top: 3em;
   display: flex;
   justify-content: center;
   width:100%;
-  position: absolute;
 }
 .ga-content-image {
   height: 300px;
@@ -219,13 +205,62 @@ header h1 {
 }
 .attractions {
   display: flex;
-  position: absolute;
   justify-content: center;
   width: 100%;
-
   top: 50%;
-  
+  margin-top: 4em;  
 }
+.gquotes-container {
+  background-image: linear-gradient(180deg, #38393c, #bfafa4 );
+  height: 100%;
+}
+.carouselslide {
+  margin: 25%;
+}
+.gquotes {
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(750px,1fr));
+  margin-top: 4em;
+  gap: 4em;
+  align-items: start;
+  width: 100%;
+  height: 100%;
+}
+.gquotes-container h2 {
+  text-align: center;
+  padding-top: 0.5em;
+  color: #979FA1;
+  font-size: 4em;
+  font-weight: 1000;
+
+}
+.gquote-item {
+  display: flex;
+  flex-flow: column;
+  gap: 0.5em;
+  justify-content: center;
+  align-items: center;
+}
+.gquote-content {
+  height: 100px;
+
+}
+.gquote-item img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.gquote-item p {
+  font-family: Merriweather;
+  flex-wrap: wrap;
+  font-size: 1.5em;
+  max-width: 600px;
+}
+.gquote-item h3 {
+  font-weight: 1000;
+}
+
 @media only screen and (max-width: 1180px) {
   .ga-content {
     flex-direction: column;
@@ -246,11 +281,6 @@ header h1 {
     padding-top: 2em;
     height: 100%;
   }
-
-  .attractions .card:first-of-type {
-    margin-left: 2em;
-  }
-
   .ga-text {
     margin: 0;
     padding-top: 1em;
@@ -276,10 +306,6 @@ header h1 {
     flex-wrap: wrap;
     gap: 2em;
     top: 35%;
-  }
-  .gotham-attractions {
-    height: 1400px;
-
   }
 }
 
@@ -546,17 +572,7 @@ footer {
   filter: blur(1px);
   opacity: 0.5;
 }
-.gallery-text {
-  color:white;
-  position: absolute;
-  text-align: center;
-  opacity: 1;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  opacity: 0;
-  font-size: 3em;
-}
+
 .attraction-item:hover .gallery-text {
   opacity:1;
   animation: move-text-up .4s linear;
