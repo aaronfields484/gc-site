@@ -525,7 +525,7 @@ footer {
 }
 
 .mainblog-hero {
-  background-image: url(img/heroblog.jpg);
+  background-image: url('./src/img/news-banner.jpg');
   background-size: cover;
   height: 300px;
   object-fit: cover;
@@ -680,13 +680,11 @@ footer {
 
 .banner {
 
-  background-image: url('./src/img/events-banner.jpg');
   background-size: cover;
   background-attachment: fixed;
-  background-position: bottom;
   height: 50vh;
   padding: 150px 5%;
-  box-shadow: 3px 3px 5px 6px;
+  box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.651);
 }
 
 .banner h1 {
@@ -694,7 +692,18 @@ footer {
   filter: blur(0px) !important;
   animation: transitionUp 1s, fadeIn 2s;
   animation-delay: 0.4s;
+}
 
+.events-banner {
+
+  background-image: url('./src/img/events-banner.jpg');
+  background-position: bottom;
+}
+
+.news-banner {
+
+  background-image: url('./src/img/news-banner.jpg');
+  background-position: top;
 }
 
 .breadcrumb-box {
