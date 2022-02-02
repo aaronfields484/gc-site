@@ -151,35 +151,7 @@ header h1 {
         background-color: rgb(56, 57, 60);
     }
 
-    /* about page */
-    .h-contentabout {
 
-      padding: 5% 7%;
-  }
-
-  .h-contentabout img {
-      
-      margin-top: 100px;
-      position: static;
-      filter: opacity(1);
-      
-  }
-  
-  .about .h-text {
-  
-      position: static;
-  }
-  
-
-  .about header {
-
-      background-image: url('./src/img/Gotham_Art_Museum.png');
-      background-size: cover;
-      height: 80vh;
-  }
-
-
-    /* end of about page */
     
 }
 
@@ -360,7 +332,7 @@ footer {
 
   }
 
-  footer p{
+  footer ul {
       font-weight: 100;
       font-family: merriweather;
       padding: 1%;
@@ -368,107 +340,129 @@ footer {
       text-align: center;
   }
 
+/* start of home gallery */
 
-
-.gp{
-    font-family: raleway;
-    background-color: rgb(56, 57, 60, 0.7);
+  .home{
+    background-color: rgba(45, 45, 48, 0.7)
+  }
+  h2{color:rgb(253, 252, 252);margin-bottom:40px;text-align:center;font-weight:400; font-family: Merriweather;font-size: 2.5rem;  }
+  .demo-gallery > ul {
     margin-bottom: 0;
-    color:white;
-    padding-left: 1%;
-  }
+    
 
-  .row > .column {
-    padding: 0 8px;
   }
-
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
+  .demo-gallery > ul > li {
+      float:right;
+      margin-bottom: 15px;
+      margin-right: 20px;
+      width: 200px;
   }
-
-  /* Create four equal columns that floats next to eachother */
-  .column {
-    float: left;
-    width: 25%;
-  }
-
-  /* The Modal (background) */
-  .modal {
-    display: none;
-    position: fixed;
-    z-index: 2;
-    padding-top: 80px;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgba(0, 0, 0, 0.89);
-  }
-
-  /* Modal Content */
-  .modal-content {
+  .demo-gallery > ul > li a { 
+    border: 3px solid rgb(255, 250, 250);
+    border-radius: 3px;
+    display: block;
+    overflow: hidden;
     position: relative;
-    background-color: rgba(56,57,60);
-    margin: auto;
-    padding: 0;
-    width: 50%;
-    max-width: 1000px;
+    float: left;
   }
-
-  /* The Close Button */
-  .close {
-    color: white;
+  .demo-gallery > ul > li a > img {
+    -webkit-transition: -webkit-transform 0.15s ease 0s;
+    -moz-transition: -moz-transform 0.15s ease 0s;
+    -o-transition: -o-transform 0.15s ease 0s;
+    transition: transform 0.15s ease 0s;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+    height: 100%;
+    width: 100%;
+  }
+  .demo-gallery > ul > li a:hover > img {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+  .demo-gallery > ul > li a:hover .demo-gallery-poster > img {
+    opacity: 1;
+  }
+  .demo-gallery > ul > li a .demo-gallery-poster {
+    background-color: rgba(0, 0, 0, 0.1);
+    bottom: 0;
+    left: 0;
     position: absolute;
-    top: 30px;
-    right: 290px;
-    font-size: 35px;
-    font-weight: bold;
-  }
-
-  .close:hover,
-  .close:focus {
-    color: #999;
-    text-decoration: none;
-    cursor:pointer
-  }
-
-  /* Hide the slides by default */
-  .mySlides {
-    display: none;
-  }
-
-  /* Next & previous buttons */
-  .prev,
-  .next {
-    cursor: pointer;
-    position: absolute;
-    top: 42%;
-    width: auto;
-    padding: 16px;
-    margin-top: -50px;
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    font-size: 20px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-    -webkit-user-select: none;
-  }
-
-  /* Position the "next button" to the right */
-  .next {
     right: 0;
-    border-radius: 3px 0 0 3px;
+    top: 0;
+    -webkit-transition: background-color 0.15s ease 0s;
+    -o-transition: background-color 0.15s ease 0s;
+    transition: background-color 0.15s ease 0s;
   }
-
-  /* On hover, add a black background color with a little bit see-through */
-  .prev:hover,
-  .next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
+  .demo-gallery > ul > li a .demo-gallery-poster > img {
+    left: 50%;
+    margin-left: -10px;
+    margin-top: -10px;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    -webkit-transition: opacity 0.3s ease 0s;
+    -o-transition: opacity 0.3s ease 0s;
+    transition: opacity 0.3s ease 0s;
   }
+  .demo-gallery > ul > li a:hover .demo-gallery-poster {
+    background-color: rgba(12, 12, 12, 0.5);
+  }
+  .demo-gallery .justified-gallery > a > img {
+    -webkit-transition: -webkit-transform 0.15s ease 0s;
+    -moz-transition: -moz-transform 0.15s ease 0s;
+    -o-transition: -o-transform 0.15s ease 0s;
+    transition: transform 0.15s ease 0s;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+    height: 100%;
+    width: 100%;
+  }
+  .demo-gallery .justified-gallery > a:hover > img {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+  .demo-gallery .justified-gallery > a:hover .demo-gallery-poster > img {
+    opacity: 1;
+  }
+  .demo-gallery .justified-gallery > a .demo-gallery-poster {
+    background-color: rgba(0, 0, 0, 0.1);
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    -webkit-transition: background-color 0.15s ease 0s;
+    -o-transition: background-color 0.15s ease 0s;
+    transition: background-color 0.15s ease 0s;
+  }
+  .demo-gallery .justified-gallery > a .demo-gallery-poster > img {
+    left: 50%;
+    margin-left: -10px;
+    margin-top: -10px;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    -webkit-transition: opacity 0.3s ease 0s;
+    -o-transition: opacity 0.3s ease 0s;
+    transition: opacity 0.3s ease 0s;
+  }
+  .demo-gallery .justified-gallery > a:hover .demo-gallery-poster {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .demo-gallery .video .demo-gallery-poster img {
+    height: 48px;
+    margin-left: -24px;
+    margin-top: -24px;
+    opacity: 0.8;
+    width: 48px;
+  }
+  .demo-gallery.dark > ul > li a {
+    border: 3px solid #04070a;
+  }
+  .home .demo-gallery {
+    padding-bottom: 80px; 
+  }
+/* end of home gallery */
 
   /* Number text (1/3 etc) */
   .numbertext {
@@ -639,7 +633,6 @@ footer {
   height: 100%;
   object-fit: cover;
   object-position: center;
-
 }
 
 .mainblog-hero {
@@ -1197,134 +1190,180 @@ footer {
   }
 }
 
-/* start of about gallery */
+/* start of about page */
 
-.about img{
-    width: 100%;
+.about-header img{
+  width: 100%;
 }
 
 .h-contentabout h1 {
-    position: absolute;
-    bottom: 150px;
-    left: 10px;
-    color: white;
-    font-size: 5rem;
-    font-weight: 1000;
-    font-family: Raleway;
-    border-radius: 3px;
+  position: absolute;
+  bottom: 150px;
+  left: 10px;
+  color: white;
+  font-size: 5rem;
+  font-weight: 1000;
+  font-family: Raleway;
+  border-radius: 3px;
+  
 
 }
 
-.h-text p{
-    color: white;
-    font-family: merriweather;
-    padding-left: 60px;
-    padding-right: 40px;
+.h-textabout p{
+  color: white;
+  font-family: merriweather;
+  padding-left: 60px;
+  padding-right: 40px;
 }
+
+@media only screen and (max-width: 1500px) {
+
+
+  .h-contentabout img {
+      
+      margin-top: 100px;
+      position: static;
+      filter: opacity(1);
+      
+  }
+  
+
+
+  .h-contentabout h1 {
+      
+      font-size: 3rem;
+      font-weight: 1000;
+      position: relative; 
+  
+  }
+  
+
+
+  .about-header {
+
+      background-image: url('Gotham_Art_Museum.png');
+      background-size: cover;
+      height: 80vh;
+  }
+
+  nav {
+
+      box-shadow: 0 3px 3px rgba(0,0,0,0.2);
+      background-color: rgb(56, 57, 60);
+  }
+
+}
+
+
+
+*{
+padding:0;
+margin:0;
+}
+
+/* start of about gallery */
 
 
 
 
 .gallery-title{
-    font-size: 2.5em;
-    font-family: raleway;
-    color: #ffffff;
-    text-align: center;
-    font-weight: 500;
-    padding-top: 10px;
+  font-size: 2.5em;
+  font-family: raleway;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 500;
+  padding-top: 50px;
 
 }
 
 hr {
-    display: block;
-    margin-top: 0.5em;
-    margin-bottom: 2em;
-    margin-left: 35%;
-    margin-right: 35%;
-    border-style: inset;
-    border-width: 1px;
-    color:white;
-  
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 2em;
+  margin-left: 35%;
+  margin-right: 35%;
+  border-style: inset;
+  border-width: 1px;
+  color:white;
+
 }
 
-.galleryabout p{
-    color: white;
-    font-family: merriweather;
-    padding-left: 60px;
-    padding-right: 40px;
+.gallery p{
+  color: white;
+  font-family: merriweather;
+  padding-left: 60px;
+  padding-right: 40px;
 }
 
 .filter-button{
-    font-size: 18px;
-    font-family: marriweather;
-    border: 2px solid #f4f6f8;
-	padding:5px 10px;
-    text-align: center;
-    color: #ffffff;
-    margin-bottom: 30px;
-	background:transparent;
+  font-size: 18px;
+  font-family: marriweather;
+  border: 2px solid #f4f6f8;
+padding:5px 10px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 30px;
+background:transparent;
 }
 .filter-button:hover,
 .filter-button:focus,
 .filter-button.active{
-    color: #ffffff;
-    background-color:#3F6184;
-	outline:none;
+  color: #ffffff;
+  background-color:#3F6184;
+outline:none;
 }
 .gallery_product{
-    margin: 0px;
-	padding:0;
-	position:relative;
+  margin: 0px;
+padding:0;
+position:relative;
 }
 .gallery_product .img-info{
-	position: absolute;
-    background: rgba(0,0,0,0.5);
-    left: 0;
-    right: 0;
-    bottom: 0;
-    padding: 10px;
-	overflow:hidden;
-	color:#fff;
-	top:0;
-	display:none;
-	   -webkit-transition: 2s;
-    transition: 2s;
+position: absolute;
+  background: rgba(0,0,0,0.5);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 10px;
+overflow:hidden;
+color:#fff;
+top:0;
+display:none;
+   -webkit-transition: 2s;
+  transition: 2s;
 }
 
 .gallery_product:hover .img-info{
-	display:block;
-   -webkit-transition: 2s;
-    transition: 2s;
+display:block;
+ -webkit-transition: 2s;
+  transition: 2s;
 }
 
 .lightbox-gallery {
-    color: #000;
-    overflow-x: hidden
+  color: #000;
+  overflow-x: hidden
 }
 
 
 
 
 @media (max-width:767px) {
-    .lightbox-gallery h2 {
-        margin-bottom: 25px;
-        padding-top: 25px;
-        font-size: 24px
-    }
+  .lightbox-gallery h2 {
+      margin-bottom: 25px;
+      padding-top: 25px;
+      font-size: 24px
+  }
 }
 
 
 .lightbox-gallery .photos {
-    padding-bottom: 20px
+  padding-bottom: 20px
 
 
 }
 
 .lightbox-gallery .item {
-    padding: 10px
+  padding: 10px
 }
 
 
 /* end of about gallery */
-
-
