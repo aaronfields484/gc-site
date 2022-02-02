@@ -220,9 +220,10 @@ header h1 {
 .section-header {
   text-align: center;
   padding-top: 0.5em;
-  color: #979FA1;
+  color: white;
   font-size: 4em;
-  font-weight: 1000;
+  font-weight: 700;
+  font-family: Raleway;
 
 }
 .gquote-item {
