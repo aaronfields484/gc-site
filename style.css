@@ -199,17 +199,18 @@ video {
   margin-top: 4em;  
 }
 .gquotes-container {
-  background-image: linear-gradient(180deg, #38393c, #bfafa4 );
+  background-image: linear-gradient(180deg, #38393c, #494b4e);
   height: 100%;
+  color: white;
+  padding-bottom: 10px;
 }
 .carouselslide {
   margin: 25%;
 }
 .gquotes {
-  display: grid;
-  grid-template-columns: repeat(auto-fill,minmax(750px,1fr));
-  margin-top: 4em;
-  gap: 4em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: start;
   width: 100%;
   height: 100%;
@@ -217,10 +218,9 @@ video {
 .gquotes-container h2 {
   text-align: center;
   padding-top: 0.5em;
-  color: #979FA1;
   font-size: 4em;
   font-weight: 1000;
-
+  font-family: Raleway;
 }
 .gquote-item {
   display: flex;
@@ -228,6 +228,9 @@ video {
   gap: 0.5em;
   justify-content: center;
   align-items: center;
+  margin: auto 10px;
+  width: 400px;
+  text-align: center;
 }
 .gquote-content {
   height: 100px;
@@ -242,7 +245,7 @@ video {
 .gquote-item p {
   font-family: Merriweather;
   flex-wrap: wrap;
-  font-size: 1.5em;
+  font-size: 1.25rem;
   max-width: 600px;
 }
 .gquote-item h3 {
