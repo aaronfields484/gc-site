@@ -49,11 +49,6 @@ li.nav-item:hover  {
     background-color:rgb(56, 57, 60, 0.7);
 }
 
-header {
-
-    height: 100vh;
-}
-
 video {
 
     height: auto !important;
@@ -103,7 +98,7 @@ video {
     color: white;
 }
 
-header h1 {
+.main-header h1 {
 
     color: white;
     font-size: 5rem;
@@ -138,11 +133,12 @@ header h1 {
         display: none;
     }
 
-    header {
+    .main-header {
 
         background-image: url('./src/img/header-img.jpg');
         background-size: cover;
         height: 80vh;
+        text-align: center;
     } 
 
     nav {
@@ -160,6 +156,7 @@ header h1 {
   background-color: black;
   width: 100%;
   padding: 3em 0em;
+  margin-top: -6px;
 }
 .ga-content {
   margin-top: 3em;
@@ -701,6 +698,7 @@ footer {
   column-count: 2;
   padding: 1em;
 }
+
 .blog2 {
   width: 100%;
   display: flex;
