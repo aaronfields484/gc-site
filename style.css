@@ -1237,7 +1237,7 @@ footer {
 }
 
 .h-contentabout h1 {
-  position: absolute;
+  position: relative;
   bottom: 150px;
   left: 10px;
   color: white;
@@ -1366,7 +1366,7 @@ display:block;
 
 .lightbox-gallery {
   color: #000;
-  overflow-x: hidden
+  overflow-x: hidden;
 }
 
 
@@ -1382,7 +1382,8 @@ display:block;
 
 
 .lightbox-gallery .photos {
-  padding-bottom: 20px
+  padding-bottom: 20px;
+  padding-left:20px;
 
 
 }
