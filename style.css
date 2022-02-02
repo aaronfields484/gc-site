@@ -1122,6 +1122,26 @@ footer {
     margin: 30px auto;
     padding: 5% 2%;
   }
+
+  .single-nav {
+
+    margin: 20px auto auto auto;
+  }
+
+  .single-flex {
+
+    flex-direction: column-reverse;
+  }
+
+  .single-nav {
+
+    width: 99%;
+  }
+
+  .single-img {
+
+    width: 99%;
+  }
 }
 
 @media only screen and (max-width: 917px) {
@@ -1174,20 +1194,6 @@ footer {
     width: 100%;
   }
   
-  .single-nav {
-
-    margin: 20px auto auto auto;
-  }
-
-  .single-flex {
-
-    flex-direction: column-reverse;
-  }
-
-  .single-nav {
-
-    width: 99%;
-  }
 }
 
 /* start of about page */
