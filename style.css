@@ -324,7 +324,7 @@ footer {
   }
 
 
-  footer h4{
+  footer h5{
       font-weight: 100;
       font-family: Raleway;
       padding: 1%;
@@ -333,7 +333,6 @@ footer {
   }
 
   footer ul {
-      font-weight: 100;
       font-family: merriweather;
       padding: 1%;
       background-color:transparent;
@@ -345,7 +344,7 @@ footer {
   .home{
     background-color: rgba(45, 45, 48, 0.7)
   }
-  h2{color:rgb(253, 252, 252);margin-bottom:40px;text-align:center;font-weight:400; font-family: Merriweather;font-size: 2.5rem;  }
+  .galtext{color:rgb(253, 252, 252);margin-bottom:40px;text-align:center;font-weight:400; font-family: Merriweather;font-size: 2.5rem;  }
   .demo-gallery > ul {
     margin-bottom: 0;
     
@@ -1208,12 +1207,6 @@ footer {
 
 }
 
-.h-textabout p{
-  color: white;
-  font-family: merriweather;
-  padding-left: 60px;
-  padding-right: 40px;
-}
 
 @media only screen and (max-width: 1500px) {
 
@@ -1242,7 +1235,7 @@ footer {
 
       background-image: url('Gotham_Art_Museum.png');
       background-size: cover;
-      height: 80vh;
+      
   }
 
   nav {
@@ -1255,14 +1248,8 @@ footer {
 
 
 
-*{
-padding:0;
-margin:0;
-}
 
 /* start of about gallery */
-
-
 
 
 .gallery-title{
@@ -1271,8 +1258,6 @@ margin:0;
   color: #ffffff;
   text-align: center;
   font-weight: 500;
-  padding-top: 50px;
-
 }
 
 hr {
