@@ -342,9 +342,11 @@ footer {
 
 /* start of home gallery */
 
+/*
   .home{
-    background-color: rgba(45, 45, 48, 0.7)
+    background-color: rgba(45, 45, 48, 0.7);
   }
+*/
   h2{color:rgb(253, 252, 252);margin-bottom:40px;text-align:center;font-weight:400; font-family: Merriweather;font-size: 2.5rem;  }
   .demo-gallery > ul {
     margin-bottom: 0;
