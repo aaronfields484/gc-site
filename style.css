@@ -108,7 +108,7 @@ video {
     color: white;
 }
 
-.main-header h1 {
+.main-header h1, .banner h1 {
 
     color: white;
     font-size: 5rem;
@@ -232,7 +232,7 @@ video {
   font-size: 4em;
   font-weight: 700;
   font-family: Raleway;
-
+  margin-bottom: 20px;
 }
 .gquote-item {
   display: flex;
@@ -353,10 +353,6 @@ footer {
 
 /* start of home gallery */
 
-
-  .home{
-    background-color: rgba(45, 45, 48, 0.7);
-  }
   .galtext{color:rgb(253, 252, 252);margin-bottom:40px;text-align:center;font-weight:400; font-family: Merriweather;font-size: 2.5rem;  }
   .demo-gallery > ul {
     margin-bottom: 0;
