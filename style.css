@@ -340,7 +340,7 @@ footer {
       font-weight: 100;
       font-family: Raleway;
       padding: 1%;
-      text-align: center;
+      
 
   }
 
@@ -348,7 +348,34 @@ footer {
       font-family: merriweather;
       padding: 1%;
       background-color:transparent;
-      text-align: center;
+      
+  }
+
+  footer .row{
+    text-align: center;
+  }
+
+  @media only screen and (max-width: 767px){
+    .row > .sitemap{
+      margin-left: auto;
+      margin-right: auto;
+      width: 60%;
+     
+ 
+    }
+
+    .row > .city{
+      margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+    }
+
+    .row > .social{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    }
+
   }
   
 
