@@ -213,6 +213,8 @@ video {
   height: 100%;
   color: white;
   padding-bottom: 10px;
+  border-top: #BFAFA4 solid 5px;
+  border-bottom: #BFAFA4 solid 5px;
 }
 .carouselslide {
   margin: 25%;
@@ -237,7 +239,7 @@ video {
 .gquote-item {
   display: flex;
   flex-flow: column;
-  gap: 0.5em;
+  gap: 2em;
   justify-content: center;
   align-items: center;
   margin: auto 10px;
@@ -262,6 +264,7 @@ video {
 }
 .gquote-item h3 {
   font-weight: 1000;
+  font-size: 2em;
 }
 
 @media only screen and (max-width: 1180px) {
@@ -1334,14 +1337,16 @@ position:relative;
 }
 .gallery_product .img-info{
 position: absolute;
-  background: rgba(0,0,0,0.5);
-  left: 0;
-  right: 0;
+  background: rgba(0,0,0,0.2); 
+  left: 50%;
+  /* right: 0;
   bottom: 0;
-  padding: 10px;
+  padding: 10px; */
+text-align: center;
 overflow:hidden;
 color:#fff;
-top:0;
+top:50%;
+transform: translate(-50%,-50%);
 display:none;
    -webkit-transition: 2s;
   transition: 2s;
@@ -1352,7 +1357,9 @@ display:block;
  -webkit-transition: 2s;
   transition: 2s;
 }
-
+.img-info h4 {
+  mar
+}
 .lightbox-gallery {
   color: #000;
   overflow-x: hidden;
