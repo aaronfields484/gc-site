@@ -19,7 +19,7 @@ function navScroll(){
             navbar.classList.remove('navbar-background');
         }
         navbar.style.display = 'unset';
-        prevY = window.scrollY;
+        prevY = window.scrollY+10;
     }
 
     //Sees if user's scroll is greater than 300px to display transparent navbar 
