@@ -1,4 +1,4 @@
-let prevY;
+let prevY = window.scrollY;
 let navbar = document.getElementById('navbar');
 
 //Navbar appearance fluctuates based on users scroll position
@@ -8,9 +8,8 @@ function navScroll(){
     let y = window.scrollY;
 
     //Sees if the user has scrolled up to display navbar
-    if(y < (prevY-1)){
+    if(y < prevY){
 
-        //
         if(y > 300){
 
             navbar.classList.add('navbar-background');
@@ -24,17 +23,12 @@ function navScroll(){
     }
 
     //Sees if user's scroll is greater than 300px to display transparent navbar 
-    else if(y > 300){
+
+    else {
 
         navbar.style.display = 'none';
         navbar.classList.remove('navbar-background');
         prevY = window.scrollY;
-    }
-    
-    else{
-
-        navbar.style.display = 'unset';
-        prevY = 0;
     }
 
 }
