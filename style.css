@@ -1403,5 +1403,14 @@ display:block;
   padding: 10px
 }
 
+@media only screen and (max-width: 570px){
+  .lightbox-gallery{
+    /* padding-left: 100px; */
+margin-left: auto;
+margin-right: auto;
+width: 80%;
+  }
+}
+
 
 /* end of about gallery */
