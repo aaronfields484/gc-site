@@ -8,7 +8,7 @@ function navScroll(){
     let y = window.scrollY;
 
     //Sees if the user has scrolled up to display navbar
-    if(y < (prevY-5)){
+    if(y < (prevY-1)){
 
         //
         if(y > 300){
