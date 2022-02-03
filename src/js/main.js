@@ -10,7 +10,7 @@ function navScroll(){
     //Sees if the user has scrolled up to display navbar
     if(y < prevY){
 
-        if(y > 300){
+        if(y > 200){
 
             navbar.classList.add('navbar-background');
         }
@@ -19,18 +19,22 @@ function navScroll(){
             navbar.classList.remove('navbar-background');
         }
         navbar.style.display = 'unset';
-        prevY = window.scrollY+10;
     }
 
     //Sees if user's scroll is greater than 300px to display transparent navbar 
 
-    else {
+    else if(y > 200) {
 
         navbar.style.display = 'none';
         navbar.classList.remove('navbar-background');
-        prevY = window.scrollY;
     }
 
+    else {
+
+        navbar.style.display = 'unset';
+    }
+
+    prevY = window.scrollY;
 }
 
 window.addEventListener('scroll', navScroll);
