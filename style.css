@@ -120,6 +120,11 @@ video {
 
 @media only screen and (max-width: 991px) {
 
+    .banner h1 {
+
+      font-size: 4rem;
+    }
+
     .h-content {
 
         padding: 5% 7%;
@@ -822,6 +827,7 @@ footer {
   filter: blur(0px) !important;
   animation: transitionUp 1s, fadeIn 2s;
   animation-delay: 0.4s;
+  
 }
 
 .events-banner {
@@ -1150,6 +1156,12 @@ footer {
   .single-nav {
 
     margin: 20px auto auto auto;
+    width: 99%;
+  }
+
+  .event-summary {
+
+    width: 100%;
   }
 
   .single-flex {
@@ -1157,14 +1169,10 @@ footer {
     flex-direction: column-reverse;
   }
 
-  .single-nav {
-
-    width: 99%;
-  }
-
   .single-img {
 
     width: 99%;
+    height: 70vh;
   }
 }
 
@@ -1177,9 +1185,16 @@ footer {
     background-color: #979FA1;
   }
 
+  img.event-img {
+
+    width: 100% !important;
+  }
+
+
   .single-img {
 
     width: 100% !important;
+    height: 50vh;
   }
 
   .event-details div {
