@@ -999,7 +999,8 @@ footer {
 .events-desc button {
 
   position: relative;
-  top: 1;
+  top: 10px;
+  left: 30%;
   background-color: #979FA1;
   border-color: #979fa1;
 
