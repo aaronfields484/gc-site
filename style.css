@@ -554,7 +554,7 @@ footer {
   }
 .city-overview {
   position: relative;
-  background-image:url(img/night1.jpg);
+  background-image:url(./src/img/night1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
