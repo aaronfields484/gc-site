@@ -769,6 +769,11 @@ footer {
   font-size: 1em;
 }
 
+.blog-link {
+
+  text-decoration: none;
+}
+
 @media only screen and (max-width: 1476px) {
   .blog1-text {
     column-count: 1;
