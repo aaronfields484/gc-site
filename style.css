@@ -83,6 +83,7 @@ li.nav-item:hover {
   background-color: #979FA1;
   border-color: #979FA1;
 }
+
 /* Navbar End */
 
 /* Header Video with Image */
@@ -118,6 +119,7 @@ video {
 
   color: white;
 }
+
 /* H1 for Home Page header and Events Page header */
 .main-header h1,
 .banner h1 {
@@ -127,7 +129,7 @@ video {
   font-weight: 600;
   font-family: Raleway;
   border-radius: 3px;
-} 
+}
 
 /*  Media query for Index Header and Events H1 */
 @media only screen and (max-width: 991px) {
@@ -175,6 +177,7 @@ video {
   }
 
 }
+
 /* End Media Query */
 
 /* Home Page- Visit Gotham City Section */
@@ -230,6 +233,7 @@ video {
   top: 50%;
   margin-top: 4em;
 }
+
 .card {
   width: 100%;
   height: 100%;
@@ -338,6 +342,7 @@ video {
     height: 50%;
   }
 }
+
 /* End Media Query */
 
 /* Media Query to collapse cards to column */
@@ -579,6 +584,7 @@ footer .row {
 .home .demo-gallery {
   padding-bottom: 80px;
 }
+
 /* end of home gallery */
 
 /* Start of Things to Do Page */
@@ -587,7 +593,7 @@ footer .row {
 
 .city-overview {
   position: relative;
-  background-image: url(img/night1.jpg);
+  background-image: url(./src/img/night1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -665,6 +671,7 @@ footer .row {
   animation: move-text-up .4s linear;
 
 }
+
 /* Animation for text */
 @keyframes move-text-up {
   0% {
@@ -679,6 +686,7 @@ footer .row {
     top: 50%;
   }
 }
+
 /* End Animation */
 /* End Popular Attractions Section */
 
@@ -718,6 +726,7 @@ footer .row {
     font-size: 1.2em;
   }
 }
+
 /* End Media Query
 /* End Discover Gotham Banner */
 
@@ -751,6 +760,7 @@ footer .row {
   object-fit: cover;
   object-position: center;
 }
+
 /* End Nightlife Banner */
 /* End Things to Do Page */
 
@@ -836,6 +846,7 @@ footer .row {
   flex-direction: column;
   padding: 1em;
 }
+
 /* Top blog */
 
 .blog2-content {
@@ -904,6 +915,7 @@ footer .row {
     font-size: 4em;
   }
 }
+
 /* End Media Query */
 
 /* Media Query for Remaining blogs */
@@ -937,6 +949,7 @@ footer .row {
     border-top: solid;
   }
 }
+
 /* End Media Query */
 /* End Main Blog Page */
 
@@ -971,6 +984,7 @@ footer .row {
   background-image: url('./src/img/news-banner.jpg');
   background-position: bottom;
 }
+
 /* Bread Crumb */
 .breadcrumb-box {
 
@@ -1029,6 +1043,7 @@ footer .row {
     transform: translateY(0);
   }
 }
+
 /* End Animations */
 
 /* Sort function */
@@ -1147,6 +1162,7 @@ footer .row {
 
   background-color: #979FA1;
 }
+
 /* End Events */
 /* End Events Page */
 
@@ -1335,6 +1351,7 @@ footer .row {
     height: 70vh;
   }
 }
+
 /* End Media query */
 
 /* Media Query for single event and single blog page*/
@@ -1356,7 +1373,7 @@ footer .row {
 
     width: 100% !important;
     height: 50vh;
-  } 
+  }
 
   .event-details div {
 
@@ -1398,6 +1415,7 @@ footer .row {
   }
 
 }
+
 /* End Media Query */
 /* End Single Event Page */
 
@@ -1565,6 +1583,7 @@ hr {
     width: 80%;
   }
 }
+
 /* End 570px Media Query */
 
 /* Media Query for Gallery @ 767 px */
@@ -1575,6 +1594,7 @@ hr {
     font-size: 24px
   }
 }
+
 /* End 767 Media query */
 
 /* end of about gallery */
