@@ -1,261 +1,280 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!--Google Fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Raleway:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!--Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Raleway:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
 
-    <!-- Local CSS -->
-    <link href="./style.css" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-    <title>Gotham City</title>
-  <body>
-    
-    <!-- Navbar -->
-    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <i class="fas fa-search"></i>
+  <!-- Local CSS -->
+  <link href="./style.css" rel="stylesheet">
+
+  <title>Gotham City</title>
+
+<body>
+
+  <!-- Navbar -->
+  <nav id="navbar" class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <i class="fas fa-search"></i>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">About</a></li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./things_to_do.html">Things to Do</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./events.html">Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./mainblog.html">News</a>
+          </li>
+        </ul>
+        <div class="user-login">
+          <button type="button" class="btn login-btn nav-item">Login</button>
+          <button type="button" class="btn btn-outline-light sign-up-btn nav-item">Sign Up</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+
+  <header class="news-banner banner">
+    <h1>News: Title</h1>
+    <div class="breadcrumb-box">
+      <button class="btn btn-primary bread-crumb bc-main"><i class="fas fa-home"></i> News</button>
+      <button class="btn btn-secondary bread-crumb bc-trail">News Name</button>
+    </div>
+  </header>
+
+  <section class="body-content">
+
+    <div class="summary-flex single-flex">
+      <div class="single-nav">
+        <h2>News</h2>
+        <a class="single-item">
+          <div class="sn-date">
+            <h5>Nov</h5>
+            <h5>17</h5>
+          </div>
+          <h3>News Name</h3>
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./about.html">About</a></li>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./things_to_do.html">Things to Do</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./events.html">Events</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./mainblog.html">News</a>
-            </li>
-          </ul>
-          <div class="user-login">
-            <button type="button" class="btn login-btn nav-item">Login</button>
-            <button type="button" class="btn btn-outline-light sign-up-btn nav-item">Sign Up</button>
+        <a class="single-item">
+          <div class="sn-date">
+            <h5>Nov</h5>
+            <h5>17</h5>
+          </div>
+          <h3>News Name</h3>
+        </a>
+        <a class="single-item">
+          <div class="sn-date">
+            <h5>Nov</h5>
+            <h5>17</h5>
+          </div>
+          <h3>News Name</h3>
+        </a>
+        <a class="single-item">
+          <div class="sn-date">
+            <h5>Nov</h5>
+            <h5>17</h5>
+          </div>
+          <h3>News Name</h3>
+        </a>
+        <a class="single-item">
+          <div class="sn-date">
+            <h5>Nov</h5>
+            <h5>17</h5>
+          </div>
+          <h3>News Name</h3>
+        </a>
+      </div>
+
+      <img class="single-img" src="./src/img/news-placeholder.jpg" width="60%" height="550px">
+
+      <div class="single-summary news-summary">
+        <h2>Lorem Ipsum</h2>
+        <hr class="divider">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium est soluta praesentium, sint doloribus
+          eius dignissimos dolor esse iste commodi quam mollitia nam asperiores rem minus fugiat earum in quas! Lorem
+          ipsum, dolor sit amet consectetur adipisicing elit. Laudantium est soluta praesentium, sint doloribus eius
+          dignissimos dolor esse iste commodi quam mollitia nam asperiores rem minus fugiat earum in quas!</p>
+      </div>
+    </div>
+
+  </section>
+
+<!-- Start of footer -->
+
+<footer class="text-white" style="background-color: rgba(38,38,39);">
+
+  <!--start of enroll form -->
+
+  <section class="home-newsletter">
+    <div class="container">
+      <div class="mt-5 pb-5 ">
+        <div class="single">
+          <h3>Subscribe to Newsletter</h3>
+          <div style="width:80%; padding-left: 20%; " class="input-group">
+            <input type="email" class="form-control" placeholder="Enter your email">
+            <span class="submitbtn input-group-btn">
+              <button style="width:90px;background-color:rgb(151,	159,	161); border-color: rgb(151,	159,	161);"
+                class="btn " type="submit">Enroll</button>
+            </span>
           </div>
         </div>
       </div>
-    </nav>
+    </div>
+  </section>
 
-      <!-- Header -->
+  <!-- start of site info links -->
 
-      <header class="news-banner banner">
-        <h1>News: Title</h1>
-        <div class="breadcrumb-box">
-          <button class="btn btn-primary bread-crumb bc-main"><i class="fas fa-home"></i> News</button>
-          <button class="btn btn-secondary bread-crumb bc-trail">News Name</button>
-        </div>
-      </header>
+  <div class="row">
 
-      <section class="body-content">
+    <!-- sitemap info -->
 
-        <div class="summary-flex single-flex">
-            <div class="single-nav">
-                <h2>News</h2>
-                <a class="single-item">
-                    <div class="sn-date">
-                        <h5>Nov</h5>
-                        <h5>17</h5>
-                    </div>
-                    <h3>News Name</h3>
-                </a>
-            <a class="single-item">
-                <div class="sn-date">
-                    <h5>Nov</h5>
-                    <h5>17</h5>
-                </div>
-                <h3>News Name</h3>
-            </a>
-        <a class="single-item">
-            <div class="sn-date">
-                <h5>Nov</h5>
-                <h5>17</h5>
-            </div>
-            <h3>News Name</h3>
-        </a>
-        <a class="single-item">
-            <div class="sn-date">
-                <h5>Nov</h5>
-                <h5>17</h5>
-            </div>
-            <h3>News Name</h3>
-        </a>
-        <a class="single-item">
-            <div class="sn-date">
-                <h5>Nov</h5>
-                <h5>17</h5>
-            </div>
-            <h3>News Name</h3>
-        </a>
-        </div> 
-        
-        <img class="single-img" src="./src/img/news-placeholder.jpg" width="60%" height="550px">
-        
-        <div class="single-summary news-summary">
-            <h2>Lorem Ipsum</h2>
-            <hr class="divider">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium est soluta praesentium, sint doloribus eius dignissimos dolor esse iste commodi quam mollitia nam asperiores rem minus fugiat earum in quas! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium est soluta praesentium, sint doloribus eius dignissimos dolor esse iste commodi quam mollitia nam asperiores rem minus fugiat earum in quas!</p>
-        </div>
+    <div class="sitemap col-md-4 " style="max-width: 50%;">
+      <ul style="list-style:none;">
+        <h5>Sitemap</h5>
+        <li>
+          <a class="btn btn-floating m-0" href="about.html" role="button">
+            <i style="color:white; font-style: normal;"> About</i>
+          </a>
+        </li>
+
+        <li>
+          <a class="btn btn-floating m-0" href="things_to_do.html" role="button">
+            <i style="color:white; font-style: normal;"> Things to do</i>
+          </a>
+        </li>
+
+        <li>
+          <a class="btn btn-floating m-0" href="events.html" role="button">
+            <i style="color:white; font-style: normal;"> Events</i>
+          </a>
+        </li>
+
+        <li>
+          <a class="btn btn-floating m-0" href="mainblog.html" role="button">
+            <i style="color:white; font-style: normal;"> News</i>
+          </a>
+        </li>
+      </ul>
     </div>
 
-      </section>
+    <!-- city info -->
 
-      <footer class= "text-white"style="background-color: rgba(38,38,39);">
+    <div class="city col-md-4" style="max-width: 50%;">
+      <ul style="list-style:none;">
+        <h5>City Info</h5>
+        <li>
+          <a class="btn btn-floating m-0" href="about.html" role="button">
+            <i style="color:white; font-style: normal;"> Lorem</i>
+          </a>
+        </li>
 
-        <!--start of enroll form -->
-    
-        <section class="home-newsletter">
-         <div class="container">
-             <div class="mt-5 pb-5 " >
-               <div class="single">
-                <h3>Subscribe to Newsletter</h3>
-                <div style="width:80%; padding-left: 20%; " class="input-group">
-                  <input   type="email"  class="form-control" placeholder="Enter your email">
-                    <span class="submitbtn input-group-btn">
-                      <button style="width:90px;background-color:rgb(151,	159,	161); border-color: rgb(151,	159,	161);" class="btn " type="submit">Enroll</button>
-                    </span>
-                  </div>
-               </div>
-          </div>
-         </div>
-        </section>
-         
-        <!-- end of enroll form -->
-    
-        <!-- start of site info -->
-    
-        <div class="row">
-         
-          <div class="sitemap col-md-4 " style="max-width: 50%;">
-              <ul style="list-style:none;">
-                <h5>Sitemap</h5>
-                <li>
-                <a class="btn btn-floating m-0" href="about.html" role="button">
-                  <i style="color:white; font-style: normal;"> About</i>
-                </a>
-                </li>
-    
-                <li>
-                  <a class="btn btn-floating m-0" href="things_to_do.html" role="button">
-                    <i style="color:white; font-style: normal;"> Things to do</i>
-                  </a>
-                  </li>
-    
-                  <li>
-                    <a class="btn btn-floating m-0" href="events.html" role="button">
-                      <i  style="color:white; font-style: normal;" > Events</i>
-                    </a>
-                  </li>
-    
-                  <li>
-                      <a class="btn btn-floating m-0" href="mainblog.html" role="button">
-                        <i style="color:white; font-style: normal;"> News</i>
-                      </a>
-                    </li>
-            </ul>
-          </div>
-        
-            <div class="city col-md-4" style="max-width: 50%;">
-              <ul style="list-style:none;">
-                <h5>City Info</h5>
-                <li>
-                <a class="btn btn-floating m-0" href="about.html" role="button">
-                  <i style="color:white; font-style: normal;"> Lorem</i>
-                </a>
-                </li>
-    
-                <li>
-                  <a class="btn btn-floating m-0" href="things_to_do.html" role="button">
-                    <i style="color:white; font-style: normal;"> Lorem</i>
-                  </a>
-                  </li>
-    
-                  <li>
-                    <a class="btn btn-floating m-0" href="#!" role="button">
-                      <i  style="color:white; font-style: normal;" > Lorem</i>
-                    </a>
-                  </li>
-            </ul>
-             </div>
-    
-         <div class="social col-md-4">   
-              <ul style="list-style: none;">
-                <h5>Social</h5>
-                <!-- Twitter -->
-                 <li style="padding-left: 50px;">
-                  <a class="btn btn-floating m-0" href="#!" role="button">
-                      <i class="fab fa-twitter"> Twitter</i>
-                  </a>
-                </li>
-    
-              <!-- Github -->
-                 <li style="padding-left: 50px;">
-                  <a class="btn btn-floating m-1" href="#!" role="button">
-                    <i class="fab fa-github"> Github</i>
-                  </a>
-                </li>
-    
-                 <!-- Facebook -->
-    
-                <li style="padding-left: 50px;">
-                  <a class="btn btn-floating m-0" href="#!" role="button">
-                     <i class="fab fa-facebook-f"> Facebook</i>
-                  </a>
-                </li>
-    
-             </ul> 
-         </div>
-      
-          <div class="d-flex justify-content-center"> 
-            <a href="index.html">
-              <img src="./src/img/logo.png"  style="width:150px;height:150px;" alt="logo"> 
-            </a>
-          </div>
-     
-             <!-- end of logo -->
-    
-           <!-- end of site info -->
-    
-           <!-- Grid container -->
-        <div class="container p-2 pb-1">
-    
-            <div class="text-center" style=" font-family:raleway; ">
-            <p> All Rights Reserved, SAAD 2021</p>
-           </div>
-    
-        </div>
-     </footer>
-  
-    <!-- Local JavaScript -->
-    <script src="./src/js/main.js"></script>
+        <li>
+          <a class="btn btn-floating m-0" href="things_to_do.html" role="button">
+            <i style="color:white; font-style: normal;"> Lorem</i>
+          </a>
+        </li>
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> -->
+        <li>
+          <a class="btn btn-floating m-0" href="#!" role="button">
+            <i style="color:white; font-style: normal;"> Lorem</i>
+          </a>
+        </li>
+      </ul>
+    </div>
 
-    <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/497162a0b5.js" crossorigin="anonymous"></script>
-    
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    
-  </body>
+    <!-- social info -->
+
+    <div class="social col-md-4">
+      <ul style="list-style: none;">
+        <h5>Social</h5>
+
+        <!-- Twitter -->
+        <li style="padding-left: 50px;">
+          <a class="btn btn-floating m-0" href="#!" role="button">
+            <i class="fab fa-twitter"> Twitter</i>
+          </a>
+        </li>
+
+        <!-- Github -->
+        <li style="padding-left: 50px;">
+          <a class="btn btn-floating m-1" href="#!" role="button">
+            <i class="fab fa-github"> Github</i>
+          </a>
+        </li>
+
+        <!-- Facebook -->
+        <li style="padding-left: 50px;">
+          <a class="btn btn-floating m-0" href="#!" role="button">
+            <i class="fab fa-facebook-f"> Facebook</i>
+          </a>
+        </li>
+
+      </ul>
+    </div>
+
+    <!-- start of footer logo -->
+
+    <div class="d-flex justify-content-center">
+      <a href="index.html">
+        <img src="src/img/logo.png" style="width:150px;height:150px;" alt="logo">
+      </a>
+    </div>
+
+    <!-- Grid container -->
+    <div class="container p-2 pb-1">
+
+      <div class="text-center" style=" font-family:raleway; ">
+        <p> All Rights Reserved, SAAD 2021</p>
+      </div>
+
+    </div>
+</footer>
+
+  <!-- Local JavaScript -->
+  <script src="./src/js/main.js"></script>
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> -->
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/497162a0b5.js" crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
+  </script>
+
+</body>
+
 </html>
