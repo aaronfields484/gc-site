@@ -587,11 +587,7 @@ footer .row {
 
 .city-overview {
   position: relative;
-<<<<<<< HEAD
-  background-image:url(./src/img/night1.jpg);
-=======
-  background-image: url(img/night1.jpg);
->>>>>>> cleanupcss
+  background-image:url('./src/img/night1.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
