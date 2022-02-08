@@ -1482,9 +1482,6 @@ footer .row {
 /* End Media Query */
 
 
-/* start of about gallery */
-
-
 .gallery-title {
   font-size: 2.5em;
   font-family: raleway;
@@ -1493,7 +1490,7 @@ footer .row {
   font-weight: 500;
 }
 
-hr {
+.gallery hr {
   display: block;
   margin-top: 0.5em;
   margin-bottom: 2em;
@@ -1598,3 +1595,183 @@ hr {
 /* End 767 Media query */
 
 /* end of about gallery */
+
+/* start of historical event */
+
+.historyevent-header img {
+  width: 100%;
+}
+
+.historyevent-content h1 {
+  position: relative;
+  bottom: 150px;
+  left: 10px;
+  color: white;
+  font-size: 5rem;
+  font-weight: 1000;
+  font-family: Raleway;
+  border-radius: 3px;
+
+
+}
+
+/* history event Bread Crumb */
+.history-breadcrumb-box {
+  position: absolute;
+  top: 82.3vh;
+  left: 3%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.history-bread-crumb {
+
+  border-radius: 0 !important;
+}
+
+/* main article img */
+.article-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+
+}
+
+.subheading {
+  font-size: 2.5em;
+  font-family: raleway;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 500;
+  padding-top: 20px;
+}
+
+.historical hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 2em;
+  margin-left: 35%;
+  margin-right: 35%;
+  border-style: inset;
+  border-width: 1px;
+  color: white;
+
+}
+
+/* article context */
+.historical-content p {
+  text-align: justify;
+  text-justify: inter-word;
+  color: white;
+  font-family: merriweather;
+  padding-left: 60px;
+  padding-right: 40px;
+  font-size: 1em;
+  padding-bottom: 50px;
+}
+
+
+.historical-content h2 {
+  font-size: 2em;
+  font-family: raleway;
+  color: #ffffff;
+  font-weight: 500;
+  padding-top: 20px;
+  padding-left: 60px;
+}
+
+.historical-content hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 2em;
+  margin-right: 83%;
+  margin-left: 4%;
+  border-style: inset;
+  border-width: 1px;
+  color: white;
+}
+
+/* 2nd image 4 article */
+.article-img2 {
+  width: 22%;
+  left: 30%;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-right: 50px;
+  padding-left: 10px;
+  float: right;
+
+}
+
+/* Media Query 4 historical event */
+@media (max-width:1300px) {
+
+  .historyevent-content img {
+
+    margin-top: 100px;
+    position: static;
+    filter: opacity(1);
+
+  }
+
+
+
+  .historyevent-content h1 {
+
+    font-size: 3rem;
+    font-weight: 1000;
+    position: relative;
+
+  }
+
+
+
+  .historyevent-header {
+
+    background-image: url('Gotham_Art_Museum.png');
+    background-size: cover;
+
+  }
+
+  .history-breadcrumb-box {
+    position: relative;
+    top: -10vh;
+    left: 3%;
+    box-shadow: none;
+  }
+
+  .historical-content p {
+    text-align: justify;
+  }
+
+  .historical-content hr {
+    display: block;
+  margin-top: 0.5em;
+  margin-bottom: 2em;
+  margin-left: 39%;
+  margin-right: 30%;
+  border-style: inset;
+  border-width: 1px;
+  color: white;
+
+  }
+
+  .article-img2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+    width: 45%;
+    float: none;
+  }
+
+  .heading2 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 20px;
+    padding-right: 60px;
+  }
+
+
+}
