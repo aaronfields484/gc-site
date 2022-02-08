@@ -1618,8 +1618,8 @@ footer .row {
 /* history event Bread Crumb */
 .history-breadcrumb-box {
   position: absolute;
-  top: 82.3vh;
-  left: 3%;
+  top: 78.5vh;
+  left: 5%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
